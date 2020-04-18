@@ -1,0 +1,6 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: 192.168.1.209
+      keyspace-name: hotel

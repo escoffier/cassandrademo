@@ -1,0 +1,24 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: 192.168.1.209
+      keyspace-name: k_employees
+  datasource:
+    username: root
+    password: 19811981
+    url: jdbc:mysql://192.168.1.209:3306/employees?useSSL=true
+
+
+logging:
+  level:
+    com:
+      example:
+        cassandrademo: trace
+    org:
+      springframework: debug
+#        data:
+#          cassandra: trace
+server:
+  port: 8090
+
